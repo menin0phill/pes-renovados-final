@@ -153,7 +153,8 @@ h1 {
 .btn-primary {
   /* background: #00bcd4; */
   background: #e0f7fa;
-  color: white;
+  /* color: white; */
+  color: #00bcd4;
   padding: 15px 35px;
   border-radius: 30px;
   text-decoration: none;
@@ -163,6 +164,7 @@ h1 {
 
 .btn-primary:hover {
   background: #00acc1;
+  color: rgba(55, 55, 60, 0.251);
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
 }
