@@ -32,7 +32,6 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: 15px 0;
 }
 
 .nav-wrapper {
@@ -43,7 +42,7 @@ body {
 }
 
 .logo {
-    height: 60px;
+    height: 150px;
 }
 
 .menu {
@@ -561,7 +560,7 @@ h1 {
 }
 
 .footer-logo {
-    height: 50px;
+    height: 180px;
     margin-bottom: 20px;
     filter: brightness(0) invert(1);
 }
