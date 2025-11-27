@@ -162,13 +162,18 @@ h1 {
   transition: all 0.3s;
 }
 
-.btn-primary:hover {
+/* .btn-primary:hover {
   background: #00acc1;
   color: rgba(55, 55, 60, 0.251);
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
+} */
+.btn-primary:hover {
+  background: linear-gradient(135deg, #b2ebf2 0%, #80deea 100%);
+  color: #004d5c;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
 }
-
 .btn-secondary {
   background: white;
   color: #00bcd4;
