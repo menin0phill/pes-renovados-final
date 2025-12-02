@@ -22,7 +22,46 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+/* Botão do Whatsapp flutuante */
+.btn-whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
 
+/* Efeito Hover */
+.btn-whatsapp:hover {
+  background-color: #128c7e;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+/* Ícone SVG */
+.btn-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.btn-whatsapp svg {
+  width: 80px;
+  height: auto;
+  fill: white;
+  padding: 10px;
+}
 /* ============================================
    NAVBAR (MENU)
 ============================================ */
