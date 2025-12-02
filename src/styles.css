@@ -63,12 +63,7 @@ body {
 }
 
 .btn-agendar {
-  background: #00bcd4;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 25px;
-  font-weight: 600;
-  transition: all 0.3s;
+  color: white !important;
 }
 
 .btn-agendar:hover {
@@ -679,6 +674,13 @@ h1 {
   text-decoration: none;
   font-size: 14px;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rede-social i {
+  font-size: 16px;
 }
 
 .rede-social:hover {
