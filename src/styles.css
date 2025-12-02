@@ -151,43 +151,92 @@ h1 {
 }
 
 .btn-primary {
-  /* background: #00bcd4; */
-  background: #e0f7fa;
-  /* color: white; */
+  background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
   color: white;
   padding: 15px 35px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.3s;
+  transition: all 0.4s ease;
+  box-shadow: 0 6px 20px rgba(0, 188, 212, 0.3);
+  position: relative;
+  overflow: hidden;
 }
 
-/* .btn-primary:hover {
-  background: #00acc1;
-  color: rgba(55, 55, 60, 0.251);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
-} */
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.btn-primary:hover::before {
+  left: 100%;
+}
+
 .btn-primary:hover {
-  background: linear-gradient(135deg, #b2ebf2 0%, #80deea 100%);
-  color: #004d5c;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 188, 212, 0.3);
+  background: linear-gradient(135deg, #00acc1 0%, #00838f 100%);
+  color: white;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 188, 212, 0.5);
 }
 .btn-secondary {
-  background: white;
-  color: #00bcd4;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(224, 247, 250, 0.9) 100%
+  );
+  color: #00838f;
   padding: 15px 35px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 600;
-  border: 2px solid #00bcd4;
-  transition: all 0.3s;
+  border: 2px solid rgba(0, 188, 212, 0.6);
+  transition: all 0.4s ease;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 6px 20px rgba(0, 188, 212, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-secondary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 188, 212, 0.1) 0%,
+    rgba(0, 172, 193, 0.1) 100%
+  );
+  transition: width 0.4s ease;
+}
+
+.btn-secondary:hover::before {
+  width: 100%;
 }
 
 .btn-secondary:hover {
-  background: #00bcd4;
-  color: white;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(178, 235, 242, 1) 100%
+  );
+  color: #006064;
+  border-color: #00bcd4;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(0, 188, 212, 0.3);
 }
 
 /* Estatísticas */
@@ -480,6 +529,42 @@ h1 {
   color: #666;
   font-size: 15px;
   line-height: 1.6;
+}
+
+/* Mapa do Google Maps */
+.mapa-container {
+  display: flex;
+  gap: 20px;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 0.3s;
+  flex-direction: column;
+}
+
+.mapa-container:hover {
+  background: #e0f7fa;
+  transform: translateX(10px);
+}
+
+.mapa-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.mapa-iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.mapa-iframe:hover {
+  box-shadow: 0 10px 25px rgba(0, 188, 212, 0.2);
+  transform: scale(1.02);
 }
 
 /* Formulário */

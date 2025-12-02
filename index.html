@@ -1,387 +1,486 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pés Renovados - Podologia Profissional</title>
-    <link rel="stylesheet" href="./src/styles.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
     <!-- Cabeçalho/Menu -->
     <header class="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <!-- Logotipo da clínica -->
-                <img src="./src/assets/images/logo-pes-renovados 1.png" alt="Pés Renovados" class="logo">
-                
-                <nav class="menu">
-                    <a href="#inicio">Início</a>
-                    <a href="#servicos">Serviços</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#depoimentos">Depoimentos</a>
-                    <a href="#contato" class="btn-agendar">Agendar Consulta</a>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="nav-wrapper">
+          <!-- Logotipo da clínica -->
+          <img
+            src="./src/assets/images/logo-pes-renovados 1.png"
+            alt="Pés Renovados"
+            class="logo"
+          />
+
+          <nav class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a href="#contato" class="btn-agendar">Agendar Consulta</a>
+          </nav>
         </div>
+      </div>
     </header>
 
     <!-- Seção Principal (Hero) -->
     <section class="hero" id="inicio">
-        <div class="container">
-            <div class="hero-grid">
-                <div class="hero-texto">
-                    <h1>Cuidado Profissional para Seus Pés</h1>
-                    <p class="hero-descricao">
-                        Na Pés Renovados, oferecemos tratamentos especializados em podologia com 
-                        técnicas modernas e atendimento personalizado. Seus pés merecem o melhor cuidado!
-                    </p>
-                    
-                    <div class="hero-botoes">
-                        <a href="#contato" class="btn-primary">📅 Agendar Consulta</a>
-                        <a href="#sobre" class="btn-secondary">Saiba Mais</a>
-                    </div>
-                    
-                    <!-- Estatísticas -->
-                    <div class="hero-stats">
-                        <div class="stat-box">
-                            <div class="stat-icone">🏆</div>
-                            <div class="stat-info">
-                                <h3>+10 Anos</h3>
-                                <p>De Experiência</p>
-                            </div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-icone">❤️</div>
-                            <div class="stat-info">
-                                <h3>+5000</h3>
-                                <p>Clientes Satisfeitos</p>
-                            </div>
-                        </div>
-                        <div class="stat-box">
-                            <div class="stat-icone">⭐</div>
-                            <div class="stat-info">
-                                <h3>100%</h3>
-                                <p>Satisfação</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="hero-imagem">
-                    <!-- IMAGEM PRINCIPAL - Você pode trocar por outra imagem -->
-                    <img src="./src/assets/images/card-principal.png" alt="Tratamento de Podologia">
-                    
-                    <div class="hero-badge">
-                        <h4>✨ Atendimento Especializado</h4>
-                        <p>Com equipamentos modernos</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-texto">
+            <h1>Cuidado Profissional para Seus Pés</h1>
+            <p class="hero-descricao">
+              Na Pés Renovados, oferecemos tratamentos especializados em
+              podologia com técnicas modernas e atendimento personalizado. Seus
+              pés merecem o melhor cuidado!
+            </p>
+
+            <div class="hero-botoes">
+              <a href="#contato" class="btn-primary">📅 Agendar Consulta</a>
+              <a href="#sobre" class="btn-secondary">Saiba Mais</a>
             </div>
+
+            <!-- Estatísticas -->
+            <div class="hero-stats">
+              <div class="stat-box">
+                <div class="stat-icone">🏆</div>
+                <div class="stat-info">
+                  <h3>+10 Anos</h3>
+                  <p>De Experiência</p>
+                </div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-icone">❤️</div>
+                <div class="stat-info">
+                  <h3>+5000</h3>
+                  <p>Clientes Satisfeitos</p>
+                </div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-icone">⭐</div>
+                <div class="stat-info">
+                  <h3>100%</h3>
+                  <p>Satisfação</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-imagem">
+            <!-- IMAGEM PRINCIPAL - Você pode trocar por outra imagem -->
+            <img
+              src="./src/assets/images/card-principal.png"
+              alt="Tratamento de Podologia"
+            />
+
+            <div class="hero-badge">
+              <h4>✨ Atendimento Especializado</h4>
+              <p>Com equipamentos modernos</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Serviços -->
     <section class="secao-servicos" id="servicos">
-        <div class="container">
-            <div class="secao-header">
-                <h2>Nossos Serviços</h2>
-                <p>Oferecemos uma ampla gama de tratamentos especializados em podologia</p>
-            </div>
-            
-            <div class="grade-servicos">
-                <!-- Cada card de serviço -->
-                <div class="card-servico">
-                    <div class="servico-icone">✂️</div>
-                    <h3>Corte de Unhas</h3>
-                    <p>Corte profissional e adequado, prevenindo problemas como unhas encravadas e infecções.</p>
-                </div>
-                
-                <div class="card-servico">
-                    <div class="servico-icone">🛡️</div>
-                    <h3>Tratamento de Calos</h3>
-                    <p>Remoção segura de calosidades e calos, proporcionando alívio imediato e conforto.</p>
-                </div>
-                
-                <div class="card-servico">
-                    <div class="servico-icone">💧</div>
-                    <h3>Hidratação Profunda</h3>
-                    <p>Tratamentos hidratantes profundos para manter a saúde e beleza dos seus pés.</p>
-                </div>
-                
-                <div class="card-servico">
-                    <div class="servico-icone">👣</div>
-                    <h3>Avaliação Postural</h3>
-                    <p>Análise completa da pisada e postura para prevenir dores e lesões futuras.</p>
-                </div>
-                
-                <div class="card-servico">
-                    <div class="servico-icone">🔬</div>
-                    <h3>Tratamento de Micoses</h3>
-                    <p>Tratamento especializado para fungos e micoses nas unhas e pele dos pés.</p>
-                </div>
-                
-                <div class="card-servico">
-                    <div class="servico-icone">💊</div>
-                    <h3>Pé Diabético</h3>
-                    <p>Cuidados especializados para diabéticos, prevenindo complicações graves.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="secao-header">
+          <h2>Nossos Serviços</h2>
+          <p>
+            Oferecemos uma ampla gama de tratamentos especializados em podologia
+          </p>
         </div>
+
+        <div class="grade-servicos">
+          <!-- Cada card de serviço -->
+          <div class="card-servico">
+            <div class="servico-icone">✂️</div>
+            <h3>Corte de Unhas</h3>
+            <p>
+              Corte profissional e adequado, prevenindo problemas como unhas
+              encravadas e infecções.
+            </p>
+          </div>
+
+          <div class="card-servico">
+            <div class="servico-icone">🛡️</div>
+            <h3>Tratamento de Calos</h3>
+            <p>
+              Remoção segura de calosidades e calos, proporcionando alívio
+              imediato e conforto.
+            </p>
+          </div>
+
+          <div class="card-servico">
+            <div class="servico-icone">💧</div>
+            <h3>Hidratação Profunda</h3>
+            <p>
+              Tratamentos hidratantes profundos para manter a saúde e beleza dos
+              seus pés.
+            </p>
+          </div>
+
+          <div class="card-servico">
+            <div class="servico-icone">👣</div>
+            <h3>Avaliação Postural</h3>
+            <p>
+              Análise completa da pisada e postura para prevenir dores e lesões
+              futuras.
+            </p>
+          </div>
+
+          <div class="card-servico">
+            <div class="servico-icone">🔬</div>
+            <h3>Tratamento de Micoses</h3>
+            <p>
+              Tratamento especializado para fungos e micoses nas unhas e pele
+              dos pés.
+            </p>
+          </div>
+
+          <div class="card-servico">
+            <div class="servico-icone">💊</div>
+            <h3>Pé Diabético</h3>
+            <p>
+              Cuidados especializados para diabéticos, prevenindo complicações
+              graves.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Sobre -->
     <section class="secao-sobre" id="sobre">
-        <div class="container">
-            <div class="sobre-grid">
-                <div class="sobre-imagem">
-                    <!-- IMAGEM DA CLÍNICA - Você pode trocar por foto real da sua clínica -->
-                    <img src="./src/assets/images/sobre.png" alt="Clínica Pés Renovados">
-                </div>
-                
-                <div class="sobre-conteudo">
-                    <h2>Por Que Escolher Pés Renovados?</h2>
-                    <p class="sobre-destaque">
-                        Somos especializados em cuidados podológicos com mais de 10 anos de experiência. 
-                        Nossa missão é proporcionar saúde, conforto e bem-estar para seus pés.
-                    </p>
-                    
-                    <!-- Lista de benefícios -->
-                    <div class="lista-beneficios">
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Profissionais altamente qualificados e certificados</p>
-                        </div>
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Equipamentos modernos e esterilizados</p>
-                        </div>
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Ambiente acolhedor e higiênico</p>
-                        </div>
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Atendimento personalizado e humanizado</p>
-                        </div>
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Produtos de alta qualidade</p>
-                        </div>
-                        <div class="beneficio">
-                            <span class="check">✓</span>
-                            <p>Horários flexíveis para seu conforto</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Citação -->
-                    <div class="quote-box">
-                        <p>"Seus pés sustentam você todos os dias. Eles merecem o melhor cuidado!"</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-imagem">
+            <!-- IMAGEM DA CLÍNICA - Você pode trocar por foto real da sua clínica -->
+            <img
+              src="./src/assets/images/sobre.png"
+              alt="Clínica Pés Renovados"
+            />
+          </div>
+
+          <div class="sobre-conteudo">
+            <h2>Por Que Escolher Pés Renovados?</h2>
+            <p class="sobre-destaque">
+              Somos especializados em cuidados podológicos com mais de 10 anos
+              de experiência. Nossa missão é proporcionar saúde, conforto e
+              bem-estar para seus pés.
+            </p>
+
+            <!-- Lista de benefícios -->
+            <div class="lista-beneficios">
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Profissionais altamente qualificados e certificados</p>
+              </div>
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Equipamentos modernos e esterilizados</p>
+              </div>
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Ambiente acolhedor e higiênico</p>
+              </div>
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Atendimento personalizado e humanizado</p>
+              </div>
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Produtos de alta qualidade</p>
+              </div>
+              <div class="beneficio">
+                <span class="check">✓</span>
+                <p>Horários flexíveis para seu conforto</p>
+              </div>
             </div>
+
+            <!-- Citação -->
+            <div class="quote-box">
+              <p>
+                "Seus pés sustentam você todos os dias. Eles merecem o melhor
+                cuidado!"
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Depoimentos -->
     <section class="secao-depoimentos" id="depoimentos">
-        <div class="container">
-            <div class="secao-header">
-                <h2>O Que Nossos Clientes Dizem</h2>
-                <p>A satisfação dos nossos clientes é nossa maior conquista</p>
-            </div>
-            
-            <div class="grade-depoimentos">
-                <!-- Card de depoimento -->
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Excelente atendimento! Profissionais muito atenciosos e qualificados. Meus pés nunca estiveram tão bem cuidados."</p>
-                    <div class="autor">
-                        <div class="avatar">MS</div>
-                        <p class="nome">Maria Silva</p>
-                    </div>
-                </div>
-                
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Como diabético, encontrei aqui o cuidado especializado que eu precisava. Recomendo muito!"</p>
-                    <div class="autor">
-                        <div class="avatar">JS</div>
-                        <p class="nome">João Santos</p>
-                    </div>
-                </div>
-                
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Ambiente super limpo e acolhedor. O tratamento para unhas encravadas foi perfeito!"</p>
-                    <div class="autor">
-                        <div class="avatar">AC</div>
-                        <p class="nome">Ana Costa</p>
-                    </div>
-                </div>
-                
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Atendimento impecável e resultados incríveis. Já indiquei para toda minha família."</p>
-                    <div class="autor">
-                        <div class="avatar">CO</div>
-                        <p class="nome">Carlos Oliveira</p>
-                    </div>
-                </div>
-                
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Profissionalismo e carinho no atendimento. Parabéns a toda equipe!"</p>
-                    <div class="autor">
-                        <div class="avatar">FL</div>
-                        <p class="nome">Fernanda Lima</p>
-                    </div>
-                </div>
-                
-                <div class="card-depoimento">
-                    <div class="estrelas">★★★★★</div>
-                    <p class="depoimento-texto">"Melhor clínica de podologia da região. Preços justos e qualidade excepcional!"</p>
-                    <div class="autor">
-                        <div class="avatar">RM</div>
-                        <p class="nome">Roberto Mendes</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="secao-header">
+          <h2>O Que Nossos Clientes Dizem</h2>
+          <p>A satisfação dos nossos clientes é nossa maior conquista</p>
         </div>
+
+        <div class="grade-depoimentos">
+          <!-- Card de depoimento -->
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Excelente atendimento! Profissionais muito atenciosos e
+              qualificados. Meus pés nunca estiveram tão bem cuidados."
+            </p>
+            <div class="autor">
+              <div class="avatar">MS</div>
+              <p class="nome">Maria Silva</p>
+            </div>
+          </div>
+
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Como diabético, encontrei aqui o cuidado especializado que eu
+              precisava. Recomendo muito!"
+            </p>
+            <div class="autor">
+              <div class="avatar">JS</div>
+              <p class="nome">João Santos</p>
+            </div>
+          </div>
+
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Ambiente super limpo e acolhedor. O tratamento para unhas
+              encravadas foi perfeito!"
+            </p>
+            <div class="autor">
+              <div class="avatar">AC</div>
+              <p class="nome">Ana Costa</p>
+            </div>
+          </div>
+
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Atendimento impecável e resultados incríveis. Já indiquei para
+              toda minha família."
+            </p>
+            <div class="autor">
+              <div class="avatar">CO</div>
+              <p class="nome">Carlos Oliveira</p>
+            </div>
+          </div>
+
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Profissionalismo e carinho no atendimento. Parabéns a toda
+              equipe!"
+            </p>
+            <div class="autor">
+              <div class="avatar">FL</div>
+              <p class="nome">Fernanda Lima</p>
+            </div>
+          </div>
+
+          <div class="card-depoimento">
+            <div class="estrelas">★★★★★</div>
+            <p class="depoimento-texto">
+              "Melhor clínica de podologia da região. Preços justos e qualidade
+              excepcional!"
+            </p>
+            <div class="autor">
+              <div class="avatar">RM</div>
+              <p class="nome">Roberto Mendes</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contato -->
     <section class="secao-contato" id="contato">
-        <div class="container">
-            <div class="secao-header">
-                <h2>Entre em Contato</h2>
-                <p>Agende sua consulta e dê o primeiro passo para ter pés mais saudáveis</p>
-            </div>
-            
-            <div class="contato-grid">
-                <!-- Informações de contato -->
-                <div class="contato-info">
-                    <div class="info-item">
-                        <div class="info-icone">📍</div>
-                        <div class="info-texto">
-                            <h4>Endereço</h4>
-                            <p>Travessa Vicente de Paula Pires, 24<br>São Paulo - SP, 01234-567</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <div class="info-icone">📞</div>
-                        <div class="info-texto">
-                            <h4>Telefone</h4>
-                            <p>(11) 98765-4321<br>(11) 3456-7890</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <div class="info-icone">✉️</div>
-                        <div class="info-texto">
-                            <h4>Email</h4>
-                            <p>contato@pesrenovados.com.br</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-item">
-                        <div class="info-icone">🕐</div>
-                        <div class="info-texto">
-                            <h4>Horário de Funcionamento</h4>
-                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 14h</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Formulário -->
-                <div class="contato-form">
-                    <h3>Solicite um Agendamento</h3>
-                    <form>
-                        <div class="campo">
-                            <label for="nome">Nome Completo</label>
-                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-                        </div>
-                        
-                        <div class="campo">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
-                        </div>
-                        
-                        <div class="campo">
-                            <label for="telefone">Telefone</label>
-                            <input type="tel" id="telefone" name="telefone" placeholder="(11) 98765-4321" required>
-                        </div>
-                        
-                        <div class="campo">
-                            <label for="servico">Serviço Desejado</label>
-                            <select id="servico" name="servico" required>
-                                <option value="">Selecione um serviço</option>
-                                <option value="corte">Corte de Unhas</option>
-                                <option value="calos">Tratamento de Calos</option>
-                                <option value="hidratacao">Hidratação</option>
-                                <option value="avaliacao">Avaliação Postural</option>
-                                <option value="micoses">Tratamento de Micoses</option>
-                                <option value="diabetico">Pé Diabético</option>
-                            </select>
-                        </div>
-                        
-                        <div class="campo">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos mais sobre sua necessidade..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-submit">Enviar Solicitação</button>
-                    </form>
-                </div>
-            </div>
+      <div class="container">
+        <div class="secao-header">
+          <h2>Entre em Contato</h2>
+          <p>
+            Agende sua consulta e dê o primeiro passo para ter pés mais
+            saudáveis
+          </p>
         </div>
+
+        <div class="contato-grid">
+          <!-- Informações de contato -->
+          <div class="contato-info">
+            <div class="mapa-container">
+              <div class="mapa-header">
+                <div class="info-icone">📍</div>
+                <div class="info-texto">
+                  <h4>Nossa Localização</h4>
+                  <p>Travessa Vicente de Paula Pires, 24<br />Jardim Nízia</p>
+                </div>
+              </div>
+              <iframe
+                class="mapa-iframe"
+                src="https://maps.google.com/maps?q=Travessa+Vicente+de+Paula+Pires,+24+Jardim+N%C3%ADzia&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icone">📞</div>
+              <div class="info-texto">
+                <h4>Telefone</h4>
+                <p>(11) 98765-4321<br />(11) 3456-7890</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icone">✉️</div>
+              <div class="info-texto">
+                <h4>Email</h4>
+                <p>contato@pesrenovados.com.br</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-icone">🕐</div>
+              <div class="info-texto">
+                <h4>Horário de Funcionamento</h4>
+                <p>Segunda a Sexta: 8h às 18h<br />Sábado: 8h às 14h</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário -->
+          <div class="contato-form">
+            <h3>Solicite um Agendamento</h3>
+            <form>
+              <div class="campo">
+                <label for="nome">Nome Completo</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input
+                  type="tel"
+                  id="telefone"
+                  name="telefone"
+                  placeholder="(11) 98765-4321"
+                  required
+                />
+              </div>
+
+              <div class="campo">
+                <label for="servico">Serviço Desejado</label>
+                <select id="servico" name="servico" required>
+                  <option value="">Selecione um serviço</option>
+                  <option value="corte">Corte de Unhas</option>
+                  <option value="calos">Tratamento de Calos</option>
+                  <option value="hidratacao">Hidratação</option>
+                  <option value="avaliacao">Avaliação Postural</option>
+                  <option value="micoses">Tratamento de Micoses</option>
+                  <option value="diabetico">Pé Diabético</option>
+                </select>
+              </div>
+
+              <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  rows="4"
+                  placeholder="Conte-nos mais sobre sua necessidade..."
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit">
+                Enviar Solicitação
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Rodapé -->
     <footer class="rodape">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <!-- Logo no rodapé -->
-                    <img src="./src/assets/images/logo-pes-renovados 1.png" alt="Pés Renovados" class="footer-logo">
-                    <p>Cuidando da saúde dos seus pés com profissionalismo há mais de 10 anos.</p>
-                    
-                    <!-- Redes Sociais -->
-                    <div class="redes-sociais">
-                        <a href="#" class="rede-social">Facebook</a>
-                        <a href="#" class="rede-social">Instagram</a>
-                        <a href="#" class="rede-social">LinkedIn</a>
-                    </div>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Links Rápidos</h4>
-                    <ul>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#depoimentos">Depoimentos</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Contato</h4>
-                    <ul>
-                        <li>Rua das Flores, 123</li>
-                        <li>Centro - São Paulo - SP</li>
-                        <li>(11) 98765-4321</li>
-                        <li>contato@pesrenovados.com.br</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>© 2025 Pés Renovados Podologia - Feito por Henrique Santos e Leonardo Ortelan</p>
-            </div>
-        </div>
-    </footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <!-- Logo no rodapé -->
+            <img
+              src="./src/assets/images/logo-pes-renovados 1.png"
+              alt="Pés Renovados"
+              class="footer-logo"
+            />
+            <p>
+              Cuidando da saúde dos seus pés com profissionalismo há mais de 10
+              anos.
+            </p>
 
-</body>
+            <!-- Redes Sociais -->
+            <div class="redes-sociais">
+              <a href="#" class="rede-social">Facebook</a>
+              <a href="#" class="rede-social">Instagram</a>
+              <a href="#" class="rede-social">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#depoimentos">Depoimentos</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <ul>
+              <li>Rua das Flores, 123</li>
+              <li>Centro - São Paulo - SP</li>
+              <li>(11) 98765-4321</li>
+              <li>contato@pesrenovados.com.br</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            © 2025 Pés Renovados Podologia - Feito por Henrique Santos e
+            Leonardo Ortelan
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
