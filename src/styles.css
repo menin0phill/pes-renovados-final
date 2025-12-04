@@ -103,12 +103,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3vh 0;
-  min-height: 12vh;
+  padding: none;
+  min-height: 8vh;
 }
 
 .logo {
-  height: 150px;
+  height: 100px;
   transition: var(--transition);
 }
 
@@ -123,7 +123,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   border-radius: 8px;
   position: relative;
   transition: var(--transition);
@@ -186,7 +186,7 @@ body {
     var(--primary-dark) 100%
   );
   color: white !important;
-  padding: 14px 28px;
+  padding: 10px 24px;
   border-radius: 50px;
   font-weight: 600;
   font-size: 16px;
@@ -216,7 +216,7 @@ body {
     var(--primary-dark) 50%,
     var(--secondary-color) 100%
   );
-  padding: 15vh 0;
+  padding: 10vh 0;
   position: relative;
   overflow: hidden;
 }
@@ -815,7 +815,7 @@ h1 {
 }
 
 .footer-logo {
-  height: 180px;
+  height: 100px;
   margin-bottom: 20px;
   filter: brightness(0) invert(1);
 }
