@@ -152,7 +152,7 @@ O site foi desenvolvido com abordagem **mobile-first** e é totalmente responsiv
 
 <div align="center">
 
-| Desenvolvedor |
+| Desenvolvedores |
 |---------------|
 | **Henrique Santos** |
 | **Leonardo Ortelan** |
