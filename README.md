@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Pés Renovados Logo](./src/assets/images/logo-pes-renovados%201.png)
+![Pés Renovados Logo](./src/assets/images/logo-pes-renovados_1.png)
 
 **Site institucional para clínica de podologia especializada em cuidados profissionais para os pés.**
 
