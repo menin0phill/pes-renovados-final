@@ -152,7 +152,7 @@ O site foi desenvolvido com abordagem **mobile-first** e é totalmente responsiv
 
 <div align="center">
 
-| Desenvolvedor |
+| Desenvolvedores |
 |---------------|
 | **Henrique Santos** |
 | **Leonardo Ortelan** |
@@ -193,7 +193,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 
 **⭐ Se este projeto foi útil para você, considere dar uma estrela!**
 
-Feito com ❤️ por Henrique Santos e Leonardo Ortelan
+Feito por Henrique Santos e Leonardo Ortelan
 
 © 2025 Pés Renovados Podologia - Todos os direitos reservados
 
